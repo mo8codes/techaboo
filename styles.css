@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Trebuchet MS", sans-serif;
+    font-family: "Trebuchet MS", monospace;
+    font-size: 18px;
     background-color: #000A10;
     color: #00B0BA;
     border-color: #00B0BA;
@@ -9,7 +10,7 @@
 }
   
 content {
-    text-align: center;
+    
     max-width: 80ch;
 }
   
@@ -29,7 +30,7 @@ nav a {
 }
   
 nav a:hover {
-    background-color: #00B0BA;
+    background-color: #004e52;
 }
 
 hr {
@@ -59,7 +60,7 @@ ul.website-list {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 60%;
 }
 
 
@@ -67,3 +68,22 @@ footer {
     bottom: 0;
     width: 100%;
   }
+
+
+
+
+.container {
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.box {
+width: calc(80ch);
+padding: 20px;
+box-sizing: border-box;
+}
+
+.box p {
+    text-align: left;
+}
