@@ -5,6 +5,7 @@
     background-color: #000A10;
     color: #00B0BA;
     border-color: #00B0BA;
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur116.cur), auto !important;
 }
   
 content {
@@ -13,25 +14,57 @@ content {
 }
   
 nav {
-    size: 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0; 
 }
 
-a {
+nav a {
+    color: white;
     text-decoration: none;
-    color:#00B0BA
+    margin: 0 10px;
+    display: inline-block;
+    transition: background-color 0.5s ease;
 }
-
-body {
-    padding: 0;
+  
+nav a:hover {
+    background-color: #00B0BA;
 }
 
 hr {
-    border-color: #00B0BA
+    border-color: #00B0BA;
 }
 
+.website-list li {
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 8px;
+    align-self: center;
+    background-color: #004e52;
+    max-width: 1200px;
+    list-style-type: none;
+}
+.website-list a {
+    background-color: #004e52;
+}
+div.container {
+    text-align: center;
+}
+ul.website-list {
+    display: inline-block;
+    text-align: center;
+  }
 .picture {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 70%;
 }
+
+
+footer {
+    bottom: 0;
+    width: 100%;
+  }
